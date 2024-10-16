@@ -142,7 +142,7 @@ ul.main-menu li a.active {
   body {
     font-size: 1.2em; /* Decrease the base font size */
     max-width: 100%;  /* Remove the fixed width on the body */
-    margin: 5px;     /* Reduce margins */
+    margin: 3px;     /* Reduce margins */
   }
 
   header img {
