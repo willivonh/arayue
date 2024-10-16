@@ -151,7 +151,7 @@ ul.main-menu li a.active {
 
   /* Resize the menu links for better readability on smaller screens */
   ul.main-menu li a {
-    font-size: 1.5rem; /* Decrease font size of the menu items */
+    font-size: 1.4rem; /* Decrease font size of the menu items */
     margin-right: 5px; /* Reduce space between menu items */
   }
 
