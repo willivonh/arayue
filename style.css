@@ -140,9 +140,9 @@ ul.main-menu li a.active {
 /* For mobile screens, up to 600px wide */
 @media screen and (max-width: 600px) {
   body {
-    font-size: 1.1em; /* Decrease the base font size */
+    font-size: 1.2em; /* Decrease the base font size */
     max-width: 100%;  /* Remove the fixed width on the body */
-    margin: 3px;     /* Reduce margins */
+    margin: 10px;     /* Reduce margins */
   }
 
   header img {
@@ -152,7 +152,7 @@ ul.main-menu li a.active {
   /* Resize the menu links for better readability on smaller screens */
   ul.main-menu li a {
     font-size: 1.5rem; /* Decrease font size of the menu items */
-    margin-right: 10px; /* Reduce space between menu items */
+    margin-right: 5px; /* Reduce space between menu items */
   }
 
   /* Adjust embedded videos */
