@@ -112,7 +112,7 @@ ul.main-menu {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: left;
+  justify-content: space-between;
   list-style: none;
 }
 ul.main-menu li a {
