@@ -112,7 +112,7 @@ ul.main-menu {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   list-style: none;
 }
 ul.main-menu li a {
@@ -135,6 +135,37 @@ ul.main-menu li a.active {
 }
 .show {
   display:block;
+}
+
+/* For mobile screens, up to 600px wide */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 1.2em; /* Decrease the base font size */
+    max-width: 100%;  /* Remove the fixed width on the body */
+    margin: 10px;     /* Reduce margins */
+  }
+
+  header img {
+    width: 100%;  /* Scale the image to fit the screen width */
+  }
+
+  /* Resize the menu links for better readability on smaller screens */
+  ul.main-menu li a {
+    font-size: 1.5rem; /* Decrease font size of the menu items */
+    margin-right: 10px; /* Reduce space between menu items */
+  }
+
+  /* Adjust embedded videos */
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Resize other images */
+  img {
+    max-width: 100%;  /* Make sure images fit within the screen */
+    height: auto;     /* Keep aspect ratio */
+  }
 }
 
 
